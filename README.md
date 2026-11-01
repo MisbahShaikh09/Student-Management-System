@@ -1,16 +1,50 @@
-# React + Vite
+# Student Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based web application designed to manage and organize student records through a simple and user-friendly interface.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The Student Management System allows users to maintain student information in one place. It is developed using React.js, JavaScript, HTML, and CSS, with Local Storage for saving records in the browser.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Add and manage student records.
+* View student information.
+* Store records using browser Local Storage.
+* Organized user interface using React components.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React.js
+* JavaScript
+* HTML5
+* CSS3
+* Local Storage
+
+## Installation and Setup
+
+1. Clone the repository.
+
+2. Open the project folder in VS Code.
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the application:
+
+   ```bash
+   npm run dev
+   ```
+
+## Future Improvements
+
+* Add search and filtering functionality.
+* Improve form validation.
+* Integrate a backend and database.
+
+## Author
+
+Developed as a frontend development project using React.js.
